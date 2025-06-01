@@ -1,0 +1,18 @@
+{
+    "data": {
+        "mac": "/../../../../../../Volumes/Workstation",
+        "win": "D:",
+        "rbs": {
+            "raw": {
+                "us_presidential_elections_by_states": "/Datasets/Red.Blue.States/raw/us_presidential_elections_by_states.csv",
+                "us_presidential_elections_candidate": "/Datasets/Red.Blue.States/raw/us_presidential_elections_candidate.csv"
+            },
+            "external": {},
+            "interim": {},
+            "processed": {},
+            "urls": {
+                "red_blue_states_url": "https://en.wikipedia.org/wiki/Red_states_and_blue_states"
+            }
+        }
+    }
+}

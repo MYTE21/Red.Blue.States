@@ -9,6 +9,28 @@ def get_dataset_path(
     step: str,
     depth: int = 0,
 ) -> str:
+    """
+    Retrieves the file path to a specific dataset based on project, category, and processing step.
+
+    This function reads a JSON file (`datasets.json`) that contains mappings of dataset locations
+    for different projects and environments (Mac or Windows).
+    It supports navigating to a parent directory based on a specified depth
+    and returning the appropriate dataset path.
+
+    Parameters:
+        - project (str): The name of the data project.
+        - category (Literal): The stage of the data pipeline.
+          Must be one of:
+                - "raw": Unprocessed original data.
+                - "external": External data sources.
+                - "interim": Intermediate cleaned or transformed data.
+                - "processed": Final dataset ready for use.
+                - "urls": Refers to URLs instead of file paths.
+        - step (str): The specific step or sub-category within the chosen category.
+        - depth (int, optional): Number of directory levels to go up when locating the datasets.json file.
+    Returns:
+        - str: The resolved dataset file path or URL based on the provided parameters.
+    """
     if depth:
         datasets_file_location = "../" * depth + "data/" + "datasets.json"
     else:

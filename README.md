@@ -1,4 +1,6 @@
 # 🗳️ Red.Blue.States
+![Red Blue States](assets/red_blue_states.svg)
+
 Scraping a static Wikipedia page [🔗 Red states and blue states](https://en.wikipedia.org/wiki/Red_states_and_blue_states), 
 to collect information about presidential elections by states since 1972.
 

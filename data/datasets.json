@@ -10,7 +10,8 @@
             "external": {},
             "interim": {},
             "processed": {
-                "clean_us_presidential_elections_by_states": "/Datasets/Red.Blue.States/raw/clean_us_presidential_elections_by_states.csv"
+                "clean_us_presidential_elections_by_states": "/Datasets/Red.Blue.States/processed/clean_us_presidential_elections_by_states.csv",
+                "us_presidential_elections_by_state_and_party": "//Datasets/Red.Blue.States/processed/us_presidential_elections_by_state_and_party.csv"
             },
             "urls": {
                 "red_blue_states_url": "https://en.wikipedia.org/wiki/Red_states_and_blue_states"

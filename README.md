@@ -31,5 +31,6 @@ to collect information about presidential elections by states since 1972.
 2. [🔗 data_cleaning.ipynb](notebooks/data_cleaning.ipynb): Remove null values,
    as those don't align with the dataset and don't contain any substantial information.
    Furthermore, remove some parts of the strings to make the data more useful and avoid outliers.
+   Additionally, create another dataset combining the state and candidate datasets.
    </br>
    ***🚀 Skills:** Regular Expression.*

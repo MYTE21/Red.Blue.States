@@ -34,3 +34,12 @@ to collect information about presidential elections by states since 1972.
    Additionally, create another dataset combining the state and candidate datasets.
    </br>
    ***🚀 Skills:** Regular Expression.*
+
+# Mistakes by me
+
+1. Without thinking thoroughly, I started scripting the table from the webpage.
+   Because of that, I have to do multiple 
+   back and forth to change my requirements and the same kinds of work differently.
+   Like at the beginning,
+   scrapping the table only with the election data, later with candidate name and finally, 
+   who wins the election in a particular year. 
